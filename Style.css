@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 10px;
+}
+
+
+body {
+	max-width: 1000px;
+	float: none;
+	margin: auto;
+	font-family: Optima;
+	background-color: #ffe4e1
+}
+
+header{
+      width: 100%
+      display: inline-block;
+	  background-color: ffe4e1;
+	  color: black;	
+	 font-family: Fantasy; 
+}
+
+.aside-left {
+      width: 20%
+      float: left;
+      display: block;
+      min-height: 300px;
+}
+main {
+     width: 60%
+     float: left;	 
+	 display: block;
+	 min-height: 300px;
+	 color:black;
+	 background-color: #ffe4e1;
+	 font-family: Optima;
+	 
+}
+aside {	 
+     width: 20%;
+	 float: right;
+	 display: block;
+	 min-height: 300px;
+	 color:red;
+	 background-color: #ffe4e1;
+}	
+footer { 
+      width: 100%;
+	  display: inline-block;
+	  background-color: #ffe4e1;
+	  font-family: Fantasy;
+}
+.left-footer {
+     width:30%;
+     float: left;	 
+	 display: block;
+	 min-height: 200px
+	 
+}
+.center-footer {
+         width: 33%;	
+		 float: left;
+		 display: block;
+		 min-height: 200px;
+		 color:red;
+}
+.right-footer{
+	width:33% 
+	float: right;
+	display: block;
+	min-height: 200px
+}	
+ 
+.copyright {
+     width: 100%
+     display: inline-block;	 
+	 background-color: white;
+	 color:black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #ffe4e1;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+} 
+.sign-up-form
+{
+	
+	width:600px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto;
+	text-align: center
+}	
+.sign-up-form h1
+{
+  color: #black;
+margin-bottom: 30px;  
+}
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}	
+button
+{
+	color:#black;
+	width: 100%
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 35px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}	
+
